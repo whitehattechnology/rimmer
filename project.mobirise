@@ -37,7 +37,7 @@
     "name": "Rimmer for Congress 2020",
     "versionFirst": "4.10.8",
     "siteFonts": [],
-    "uniqCompNum": 163,
+    "uniqCompNum": 166,
     "versionPublish": "4.10.8",
     "screenshot": "screenshot.png",
     "witsec-white-label": "on",
@@ -386,7 +386,7 @@
             }
           },
           "_name": "header02",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"20\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"13\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Align\" name=\"align\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/ssr-mcdowells-a-29.jpeg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=M4C_PHC-a2M\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#465052\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n   \n    <div class=\"container align-left\">\n        \n        <div class=\"row justify-content-md-start\" mbr-class=\"{'justify-content-md-center':align==3, 'justify-content-md-end':align==4}\">\n            \n            <div class=\"mbr-white col-md-12 col-lg-7\">\n  \n                <h1 class=\"mbr-section-title mbr-regular pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><img src=\"@PROJECT_PATH@/assets/images/stephanierimmerforcongress-logo-1-318x127.png\" alt=\"Rimmer for AZ\" mbr-if=\"showLogo\" title class=\"img-responsive center-block\"></h1>\n\n            </div>\n            \n        </div> \n            <div class=\"mbr-section-btn\">&gt;\n        \n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-center mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://apps.azsos.gov/apps/election/eps/petition/VoterPetnAuth.aspx#\" data-app-placeholder=\"Type Text\" target=\"_blank\">SIGN <br>PETITION</a>\n        <a class=\"btn btn-md btn-danger\" href=\"https://secure.actblue.com/donate/rimmeronline1?refcode=website&recurring=1\" data-app-placeholder=\"Type Text\" target=\"_blank\">DONATE</a></div>    \n        </div>\n    </div>\n    \n    \n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n    \n    \n</section>",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"25\" step=\"1\" value=\"20\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"13\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <select title=\"Align\" name=\"align\">\n            <option value=\"1\" selected>Left</option>\n            <option value=\"2\">Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/ssr-mcdowells-a-29.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#073B4C\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=M4C_PHC-a2M\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#465052\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n   \n    <div class=\"container align-left\">\n        \n        <div class=\"row justify-content-md-start\" mbr-class=\"{'justify-content-md-center':align==3, 'justify-content-md-end':align==4}\">\n            \n            <div class=\"mbr-white col-md-12 col-lg-7\">\n  \n                <h1 class=\"mbr-section-title mbr-regular pb-3 align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><img src=\"@PROJECT_PATH@/assets/images/stephanierimmerforcongress-logo-1-318x127.png\" alt=\"Rimmer for AZ\" mbr-if=\"showLogo\" title class=\"img-responsive center-block\"></h1>\n\n            </div>\n            \n        </div> \n            <div class=\"mbr-section-btn\">&gt;\n        \n      <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-center mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-secondary\" href=\"https://apps.azsos.gov/apps/election/eps/petition/VoterPetnAuth.aspx#\" data-app-placeholder=\"Type Text\" target=\"_blank\">SIGN PETITION</a>\n        <a class=\"btn btn-md btn-danger\" href=\"https://secure.actblue.com/donate/rimmeronline1?refcode=website&recurring=1\" data-app-placeholder=\"Type Text\" target=\"_blank\">DONATE</a></div>    \n        </div>\n    </div>\n    \n    \n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n    \n    \n</section>",
           "_cid": "rleMsGxdOA",
           "_anchor": "header02-5q",
           "_PHPplaceholders": [],
@@ -429,71 +429,36 @@
           "modalWindow": "<div class=\"modal fade\" id=\"modalvideo\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"modalvideoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-lg modal-dialog-centered\" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"modalvideoLabel\">Stephanie Rimmer for Congress: A New Light</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"modalvideo_body\"><div class=\"embed-responsive embed-responsive-16by9\">\n  <iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/GtBjlUEytb4\" allowfullscreen></iframe>\n</div></div><div class=\"modal-footer\"></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#modalvideo\").on(\"hidden.bs.modal\", function () {    var html = $( \"#modalvideo_body\" ).html();    $( \"#modalvideo_body\" ).empty();    $( \"#modalvideo_body\" ).append(html);  })});</script>"
         },
         {
+          "alias": false,
           "_styles": {
-            ".divider-top": {
-              "position": "relative",
-              "padding": "2.5em",
-              "background": "@bgtop"
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
             },
-            ".divider-bottom": {
-              "position": "relative",
-              "padding": "2.5em",
-              "background": "@bgbottom"
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
             },
-            ".divider-top::before, .divider-bottom::before, .divider-top::after,  .divider-bottom::after": {
-              "position": "absolute",
-              "content": "''",
-              "pointer-events": "none"
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
             },
-            ".divider-triangles::after": {
-              "left": "50%",
-              "width": "100px",
-              "height": "100px",
-              "-webkit-transform": "translateX(-50%) rotate(45deg)",
-              "transform": "translateX(-50%) rotate(45deg)",
-              "bottom": "-50px",
-              "z-index": "10",
-              "background": "inherit"
+            "H1": {
+              "color": "#57468b"
             },
-            ".divider-triangles::before": {
-              "top": "-50px"
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#716c80"
             },
-            ".divider-halfcircle::after": {
-              "left": "50%",
-              "z-index": "10",
-              "width": "100px",
-              "height": "100px",
-              "border-radius": "50%",
-              "background": "inherit",
-              "-webkit-transform": "translateX(-50%)",
-              "transform": "translateX(-50%)",
-              "bottom": "-50px"
-            },
-            ".divider-halfcircle::before": {
-              "top": "-50px"
-            },
-            ".divider-multitriangles::before, .divider-multitriangles::after": {
-              "left": "50%",
-              "width": "50px",
-              "height": "50px",
-              "-webkit-transform": "translateX(-50%) rotate(45deg)",
-              "transform": "translateX(-50%) rotate(45deg)"
-            },
-            ".divider-multitriangles::after": {
-              "bottom": "-25px",
-              "z-index": "10",
-              "background": "inherit",
-              "box-shadow": "-50px 50px 0 @bgtop, 50px -50px 0 @bgtop"
+            "H3": {
+              "color": "#716c80"
             }
           },
-          "_name": "design-block",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <select title=\"Type\" name=\"type\">\n         <option value=\"triangles\">Triangles</option>\n         <option value=\"halfcircle\" selected>Halfcircle</option>\n         <option value=\"multitriangles\">Multitriangles</option>        </select>\n        <input type=\"color\" title=\"Background Color Top\" name=\"bgtop\" value=\"#efefef\">        <input type=\"color\" title=\"Background Color Bottom\" name=\"bgbottom\" value=\"#b1a374\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"divider-top divider-triangles\" mbr-if=\"type == 'triangles'\"></div>    <div class=\"divider-top divider-halfcircle\" mbr-if=\"type == 'halfcircle'\"></div>    <div class=\"divider-top divider-multitriangles\" mbr-if=\"type == 'multitriangles'\"></div>\n    <div class=\"divider-bottom\"></div>\n</section>",
-          "_cid": "e2IVKpIcVB",
-          "_anchor": "design-block-e2IVKpIcVB",
+          "_name": "title01",
+          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"12\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"4\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <select title=\"Align\" name=\"align\">\n            <option value=\"1\">Left</option>\n            <option value=\"2\" selected>Center</option>\n            <option value=\"3\">Right</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/copper-banner-no-letters-12inch-2.jpeg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-start\" mbr-class=\"{'justify-content-md-center':align==2, 'justify-content-md-end':align==3}\">\n            <div class=\"mbr-white col-sm-12 col-md-10 col-lg-7\">\n                <h1 class=\"mbr-section-title mbr-regular align-left mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">Innovative Technology</h1>\n                <h3 class=\"mbr-section-subtitle align-left mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\" mbr-class=\"{'pt-3':showTitle}\">Lorem ipsum dolor sit amet, consectetur adipiscing\n                    elit.</h3>\n                <p class=\"mbr-text mbr-light align-left mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-class=\"{'pt-3':showSubTitle || showTitle}\">\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"align-center mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">READ MORE</a>\n                    <a class=\"btn btn-md btn-secondary\" href=\"https://mobirise.co\" data-app-placeholder=\"Type Text\">CONTACT US</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rFpl2ZpxiD",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "title01-4l"
         },
         {
           "alias": false,

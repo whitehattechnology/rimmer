@@ -905,64 +905,20 @@ section.lazy-placeholder:after {
   text-align: center;
   padding-top: 400px;
 }
-.cid-e2IVKpIcVB .divider-top {
-  position: relative;
-  padding: 2.5em;
-  background: #efefef;
+.cid-rFpl2ZpxiD {
+  padding-top: 180px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/copper-banner-no-letters-12inch-2.jpeg");
 }
-.cid-e2IVKpIcVB .divider-bottom {
-  position: relative;
-  padding: 2.5em;
-  background: #b1a374;
+.cid-rFpl2ZpxiD H1 {
+  color: #57468b;
 }
-.cid-e2IVKpIcVB .divider-top::before,
-.cid-e2IVKpIcVB .divider-bottom::before,
-.cid-e2IVKpIcVB .divider-top::after,
-.cid-e2IVKpIcVB .divider-bottom::after {
-  position: absolute;
-  content: '';
-  pointer-events: none;
+.cid-rFpl2ZpxiD .mbr-text,
+.cid-rFpl2ZpxiD .mbr-section-btn {
+  color: #716c80;
 }
-.cid-e2IVKpIcVB .divider-triangles::after {
-  left: 50%;
-  width: 100px;
-  height: 100px;
-  -webkit-transform: translateX(-50%) rotate(45deg);
-  transform: translateX(-50%) rotate(45deg);
-  bottom: -50px;
-  z-index: 10;
-  background: inherit;
-}
-.cid-e2IVKpIcVB .divider-triangles::before {
-  top: -50px;
-}
-.cid-e2IVKpIcVB .divider-halfcircle::after {
-  left: 50%;
-  z-index: 10;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: inherit;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  bottom: -50px;
-}
-.cid-e2IVKpIcVB .divider-halfcircle::before {
-  top: -50px;
-}
-.cid-e2IVKpIcVB .divider-multitriangles::before,
-.cid-e2IVKpIcVB .divider-multitriangles::after {
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  -webkit-transform: translateX(-50%) rotate(45deg);
-  transform: translateX(-50%) rotate(45deg);
-}
-.cid-e2IVKpIcVB .divider-multitriangles::after {
-  bottom: -25px;
-  z-index: 10;
-  background: inherit;
-  box-shadow: -50px 50px 0 #efefef, 50px -50px 0 #efefef;
+.cid-rFpl2ZpxiD H3 {
+  color: #716c80;
 }
 .cid-rEQNKJkVy9 {
   padding-top: 75px;
